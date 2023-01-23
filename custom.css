@@ -1,0 +1,16 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-darkbrown {
+    background-color: rgba(182, 140, 90, 1);
+    color: #fff;
+    width: 220px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
