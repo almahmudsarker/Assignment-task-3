@@ -8,8 +8,8 @@ body {
 .btn-darkbrown {
     background-color: rgba(182, 140, 90, 1);
     color: #fff;
-    width: 220px;
-    height: 64px;
+    width: 190px;
+    height: 50px;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
@@ -55,7 +55,9 @@ body {
     margin-right: 5px;
 }
 
-.btn-darkbrown {
+.btn-banner-darkbrown {
+    background-color: rgba(182, 140, 90, 1);
+    color: #fff;
     width: 150px;
     height: 64px;
     border-radius: 8px;
@@ -119,6 +121,12 @@ body {
         margin-top: 0px;
         scale: 0.3;
     }
+
+    /* carousel */
+    #carouselExampleCaptions {
+        /* position: relative; */
+        top: -350px;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 575.98px) {
@@ -137,5 +145,11 @@ body {
     .banner-search {
         margin-top: 0px;
         scale: 0.6;
+    }
+
+    /* carousel */
+    #carouselExampleCaptions {
+        /* position: relative; */
+        top: -350px;
     }
 }
