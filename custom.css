@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .btn-darkbrown {
@@ -103,6 +104,31 @@ body {
     padding: 20px;
 }
 
+/* contact styles */
+.contact {
+    display: flex;
+    gap: 100px;
+    padding: 30px 200px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+/* footer */
+.ftr-margin {
+    margin-left: 150px;
+}
+
 @media (min-width: 300px) and (max-width: 479px) {
     .banner-heading {
         margin-top: 7%;
@@ -126,6 +152,21 @@ body {
     #carouselExampleCaptions {
         /* position: relative; */
         top: -350px;
+    }
+
+    .carousels {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carousels-img {
+        width: 80%;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 0px;
+        padding: 0px;
     }
 }
 
@@ -152,4 +193,20 @@ body {
         /* position: relative; */
         top: -350px;
     }
+
+    .carousels {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .carousels-img {
+        width: 80%;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 0px;
+        padding: 0px;
+    }
+
 }
